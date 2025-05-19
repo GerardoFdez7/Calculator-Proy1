@@ -1,0 +1,35 @@
+.button {
+  cursor: pointer;
+  font-size: 2rem;
+  border: 1px solid white;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 5px; /* Added for rounded corners */
+}
+
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.button.span-two {
+  grid-column: span 2;
+}
+
+/* Add specific styles for different button types if needed */
+.button.operator {
+  background-color: #f0ad4e; /* Example operator color */
+  color: white;
+}
+
+.button.operator:hover {
+  background-color: #ec971f;
+}
+
+.button.ac {
+  background-color: #d9534f; /* Example AC color */
+  color: white;
+}
+
+.button.ac:hover {
+  background-color: #c9302c;
+}

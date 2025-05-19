@@ -56,7 +56,7 @@ To run the application in production mode:
 
 ```bash
 npm run build
-npm run start
+npm run preview
 ```
 
 ### Testing
